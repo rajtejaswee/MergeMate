@@ -6,6 +6,7 @@ dotenv.config({
     path: './env'
 })
 
+//app is listening at the port
 app.listen(process.env.PORT || 80000, () => {
     console.log(`Server is running at port : ${process.env.PORT}`)
 })
