@@ -9,6 +9,7 @@ app.use(express.json({
     }
 }));
 
+//routes defined
 app.use('/api/github', githubRoutes)
 
 export default app;
